@@ -8,6 +8,8 @@
 
 #import "SCTViewController.h"
 
+#import "NSObject+MKBlockTimer.h"
+
 @interface SCTViewController ()
 
 @end
@@ -20,6 +22,15 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void) viewDidAppear:(BOOL)animated {
+  
+  [self logTimeTakenToRunBlock:^{
+    
+    for(int i = 0 ; i < 1000000000; i ++);
+  } withPrefix:@"For Loop"];
+  
+  [super viewDidAppear:animated];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

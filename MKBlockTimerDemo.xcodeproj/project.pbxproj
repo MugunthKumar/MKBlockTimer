@@ -18,6 +18,7 @@
 		AB3B3F27170DBF0300551683 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3B3F26170DBF0300551683 /* Default-568h@2x.png */; };
 		AB3B3F2A170DBF0300551683 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3B3F28170DBF0300551683 /* MainStoryboard.storyboard */; };
 		AB3B3F2D170DBF0300551683 /* SCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B3F2C170DBF0300551683 /* SCTViewController.m */; };
+		AB3B3F36170DBF2400551683 /* NSObject+MKBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B3F34170DBF2400551683 /* NSObject+MKBlockTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		AB3B3F29170DBF0300551683 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AB3B3F2B170DBF0300551683 /* SCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTViewController.h; sourceTree = "<group>"; };
 		AB3B3F2C170DBF0300551683 /* SCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTViewController.m; sourceTree = "<group>"; };
+		AB3B3F34170DBF2400551683 /* NSObject+MKBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKBlockTimer.m"; sourceTree = "<group>"; };
+		AB3B3F35170DBF2400551683 /* NSObject+MKBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKBlockTimer.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		AB3B3F04170DBF0300551683 = {
 			isa = PBXGroup;
 			children = (
+				AB3B3F33170DBF1F00551683 /* MKBlockTimer */,
 				AB3B3F16170DBF0300551683 /* MKBlockTimerDemo */,
 				AB3B3F0F170DBF0300551683 /* Frameworks */,
 				AB3B3F0E170DBF0300551683 /* Products */,
@@ -105,6 +109,15 @@
 				AB3B3F26170DBF0300551683 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB3B3F33170DBF1F00551683 /* MKBlockTimer */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B3F34170DBF2400551683 /* NSObject+MKBlockTimer.m */,
+				AB3B3F35170DBF2400551683 /* NSObject+MKBlockTimer.h */,
+			);
+			path = MKBlockTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				AB3B3F1D170DBF0300551683 /* main.m in Sources */,
 				AB3B3F21170DBF0300551683 /* SCTAppDelegate.m in Sources */,
 				AB3B3F2D170DBF0300551683 /* SCTViewController.m in Sources */,
+				AB3B3F36170DBF2400551683 /* NSObject+MKBlockTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
