@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3B3F11170DBF0300551683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B3F10170DBF0300551683 /* UIKit.framework */; };
+		AB3B3F13170DBF0300551683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B3F12170DBF0300551683 /* Foundation.framework */; };
+		AB3B3F15170DBF0300551683 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B3F14170DBF0300551683 /* CoreGraphics.framework */; };
+		AB3B3F1B170DBF0300551683 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3B3F19170DBF0300551683 /* InfoPlist.strings */; };
+		AB3B3F1D170DBF0300551683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B3F1C170DBF0300551683 /* main.m */; };
+		AB3B3F21170DBF0300551683 /* SCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B3F20170DBF0300551683 /* SCTAppDelegate.m */; };
+		AB3B3F23170DBF0300551683 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3B3F22170DBF0300551683 /* Default.png */; };
+		AB3B3F25170DBF0300551683 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3B3F24170DBF0300551683 /* Default@2x.png */; };
+		AB3B3F27170DBF0300551683 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3B3F26170DBF0300551683 /* Default-568h@2x.png */; };
+		AB3B3F2A170DBF0300551683 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3B3F28170DBF0300551683 /* MainStoryboard.storyboard */; };
+		AB3B3F2D170DBF0300551683 /* SCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B3F2C170DBF0300551683 /* SCTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB3B3F0D170DBF0300551683 /* MKBlockTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKBlockTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3B3F10170DBF0300551683 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB3B3F12170DBF0300551683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB3B3F14170DBF0300551683 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB3B3F18170DBF0300551683 /* MKBlockTimerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKBlockTimerDemo-Info.plist"; sourceTree = "<group>"; };
+		AB3B3F1A170DBF0300551683 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB3B3F1C170DBF0300551683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB3B3F1E170DBF0300551683 /* MKBlockTimerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKBlockTimerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB3B3F1F170DBF0300551683 /* SCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTAppDelegate.h; sourceTree = "<group>"; };
+		AB3B3F20170DBF0300551683 /* SCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTAppDelegate.m; sourceTree = "<group>"; };
+		AB3B3F22170DBF0300551683 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB3B3F24170DBF0300551683 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AB3B3F26170DBF0300551683 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB3B3F29170DBF0300551683 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AB3B3F2B170DBF0300551683 /* SCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTViewController.h; sourceTree = "<group>"; };
+		AB3B3F2C170DBF0300551683 /* SCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3B3F0A170DBF0300551683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B3F11170DBF0300551683 /* UIKit.framework in Frameworks */,
+				AB3B3F13170DBF0300551683 /* Foundation.framework in Frameworks */,
+				AB3B3F15170DBF0300551683 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3B3F04170DBF0300551683 = {
+			isa = PBXGroup;
+			children = (
+				AB3B3F16170DBF0300551683 /* MKBlockTimerDemo */,
+				AB3B3F0F170DBF0300551683 /* Frameworks */,
+				AB3B3F0E170DBF0300551683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3B3F0E170DBF0300551683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B3F0D170DBF0300551683 /* MKBlockTimerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3B3F0F170DBF0300551683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B3F10170DBF0300551683 /* UIKit.framework */,
+				AB3B3F12170DBF0300551683 /* Foundation.framework */,
+				AB3B3F14170DBF0300551683 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB3B3F16170DBF0300551683 /* MKBlockTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B3F1F170DBF0300551683 /* SCTAppDelegate.h */,
+				AB3B3F20170DBF0300551683 /* SCTAppDelegate.m */,
+				AB3B3F28170DBF0300551683 /* MainStoryboard.storyboard */,
+				AB3B3F2B170DBF0300551683 /* SCTViewController.h */,
+				AB3B3F2C170DBF0300551683 /* SCTViewController.m */,
+				AB3B3F17170DBF0300551683 /* Supporting Files */,
+			);
+			path = MKBlockTimerDemo;
+			sourceTree = "<group>";
+		};
+		AB3B3F17170DBF0300551683 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B3F18170DBF0300551683 /* MKBlockTimerDemo-Info.plist */,
+				AB3B3F19170DBF0300551683 /* InfoPlist.strings */,
+				AB3B3F1C170DBF0300551683 /* main.m */,
+				AB3B3F1E170DBF0300551683 /* MKBlockTimerDemo-Prefix.pch */,
+				AB3B3F22170DBF0300551683 /* Default.png */,
+				AB3B3F24170DBF0300551683 /* Default@2x.png */,
+				AB3B3F26170DBF0300551683 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3B3F0C170DBF0300551683 /* MKBlockTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3B3F30170DBF0300551683 /* Build configuration list for PBXNativeTarget "MKBlockTimerDemo" */;
+			buildPhases = (
+				AB3B3F09170DBF0300551683 /* Sources */,
+				AB3B3F0A170DBF0300551683 /* Frameworks */,
+				AB3B3F0B170DBF0300551683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKBlockTimerDemo;
+			productName = MKBlockTimerDemo;
+			productReference = AB3B3F0D170DBF0300551683 /* MKBlockTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3B3F05170DBF0300551683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Steinlogic Consulting and Training Pte Ltd";
+			};
+			buildConfigurationList = AB3B3F08170DBF0300551683 /* Build configuration list for PBXProject "MKBlockTimerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB3B3F04170DBF0300551683;
+			productRefGroup = AB3B3F0E170DBF0300551683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3B3F0C170DBF0300551683 /* MKBlockTimerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3B3F0B170DBF0300551683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B3F1B170DBF0300551683 /* InfoPlist.strings in Resources */,
+				AB3B3F23170DBF0300551683 /* Default.png in Resources */,
+				AB3B3F25170DBF0300551683 /* Default@2x.png in Resources */,
+				AB3B3F27170DBF0300551683 /* Default-568h@2x.png in Resources */,
+				AB3B3F2A170DBF0300551683 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3B3F09170DBF0300551683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B3F1D170DBF0300551683 /* main.m in Sources */,
+				AB3B3F21170DBF0300551683 /* SCTAppDelegate.m in Sources */,
+				AB3B3F2D170DBF0300551683 /* SCTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB3B3F19170DBF0300551683 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3B3F1A170DBF0300551683 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB3B3F28170DBF0300551683 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3B3F29170DBF0300551683 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3B3F2E170DBF0300551683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB3B3F2F170DBF0300551683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3B3F31170DBF0300551683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKBlockTimerDemo/MKBlockTimerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKBlockTimerDemo/MKBlockTimerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB3B3F32170DBF0300551683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKBlockTimerDemo/MKBlockTimerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKBlockTimerDemo/MKBlockTimerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3B3F08170DBF0300551683 /* Build configuration list for PBXProject "MKBlockTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B3F2E170DBF0300551683 /* Debug */,
+				AB3B3F2F170DBF0300551683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3B3F30170DBF0300551683 /* Build configuration list for PBXNativeTarget "MKBlockTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B3F31170DBF0300551683 /* Debug */,
+				AB3B3F32170DBF0300551683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3B3F05170DBF0300551683 /* Project object */;
+}
