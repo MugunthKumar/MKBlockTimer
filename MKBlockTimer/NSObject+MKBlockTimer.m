@@ -5,8 +5,6 @@
 //  Created by Mugunth Kumar (@mugunthkumar) on 4/4/13
 //  Copyright (C) 2011-2020 by Steinlogic Consulting And Training Pte Ltd.
 
-//  Uses code from http://stackoverflow.com/questions/741830/getting-the-time-elapsed-objective-c
-
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
 //  in the Software without restriction, including without limitation the rights
@@ -34,33 +32,19 @@
 //  A note on redistribution
 //	if you are re-publishing after editing, please retain the above copyright notices
 
-#include <mach/mach.h>
-#include <mach/mach_time.h>
 #import "NSObject+MKBlockTimer.h"
 
-uint64_t getTickCount(void)
-{
-  static mach_timebase_info_data_t sTimebaseInfo;
-  uint64_t machTime = mach_absolute_time();
-  
-  // Convert to nanoseconds - if this is the first time we've run, get the timebase.
-  if (sTimebaseInfo.denom == 0 )
-  {
-    (void) mach_timebase_info(&sTimebaseInfo);
-  }
-  
-  // Convert the mach time to milliseconds
-  uint64_t millis = ((machTime / 1000000) * sTimebaseInfo.numer) / sTimebaseInfo.denom;
-  return millis;
-}
+
 @implementation NSObject (MKBlockTimer)
 
 -(void) logTimeTakenToRunBlock:(void (^)(void)) block withPrefix:(NSString*) prefixString {
-  
-  NSUInteger a = getTickCount();
-  block();
-  NSUInteger b = getTickCount();
-  
-  NSLog(@"%@: %d ms", prefixString ? prefixString : @"Time taken", b-a);
+	
+	double a = CFAbsoluteTimeGetCurrent();
+	block();
+	double b = CFAbsoluteTimeGetCurrent();
+	
+	unsigned int m = ((b-a) * 1000.0f); // convert from seconds to milliseconds
+	
+	NSLog(@"%@: %d ms", prefixString ? prefixString : @"Time taken", m);
 }
 @end
