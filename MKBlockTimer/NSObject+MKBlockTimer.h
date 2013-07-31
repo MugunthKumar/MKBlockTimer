@@ -38,4 +38,11 @@
 
 @interface NSObject (MKBlockTimer)
 -(void) logTimeTakenToRunBlock:(void (^)(void)) block withPrefix:(NSString*) prefixString;
+/**
+ *	take CPU time eg sleep() no take CPU time
+ *
+ *	@param	prefixString	prefix of log
+ */
+-(void) logCPUTimeTakenToRunBlock:(void (^)(void)) block withPrefix:(NSString*) prefixString;
+
 @end
