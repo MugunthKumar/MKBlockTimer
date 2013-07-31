@@ -23,13 +23,21 @@
 }
 
 -(void) viewDidAppear:(BOOL)animated {
-  
-  [self logTimeTakenToRunBlock:^{
     
-    for(int i = 0 ; i < 1000000000; i ++);
-  } withPrefix:@"For Loop"];
-  
-  [super viewDidAppear:animated];
+    [self logTimeTakenToRunBlock:^{
+        
+        for(int i = 0 ; i < 1000000000; i ++);
+    } withPrefix:@"For Loop"];
+    
+    [self logCPUTimeTakenToRunBlock:^{
+        
+        for(int i = 0 ; i < 1000000000; i ++);
+        
+        sleep(3);//sleep no take cpu time
+        
+    } withPrefix:@"For Loop CPU"];
+    
+    [super viewDidAppear:animated];
 }
 - (void)didReceiveMemoryWarning
 {

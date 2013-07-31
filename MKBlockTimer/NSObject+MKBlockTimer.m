@@ -47,4 +47,12 @@
 	
 	NSLog(@"%@: %d ms", prefixString ? prefixString : @"Time taken", m);
 }
+
+-(void) logCPUTimeTakenToRunBlock:(void (^)(void)) block withPrefix:(NSString*) prefixString{
+    clock_t start = clock();
+	block();
+    clock_t end = clock();
+	NSLog(@"%@: %.3f s", prefixString ? prefixString : @"CPU Time taken", (end-start)/(double)CLOCKS_PER_SEC);
+}
+
 @end
